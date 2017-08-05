@@ -1,0 +1,51 @@
+// Header
+// --------------------------------------------------
+.header { background: $black-deep; }
+.header-inner {
+  padding: 25px 0 20px;
+  @include clearfix();
+
+}
+
+.site-meta {
+  float: left;
+  margin-left: -20px;
+  line-height: normal;
+
+
+  .brand {
+    padding: 2px 1px;
+    background: none;
+  }
+
+
+  .logo { display: none; }
+
+  .site-title {
+	margin: auto;
+    font-size: 28px;
+    font-weight: bolder;
+  }
+}
+
+
+.logo-line-before,
+.logo-line-after {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 75%;
+
+
+  i {
+    position: relative;
+    display: block;
+    height: 2px;
+    background: $black-deep;
+  }
+}
+
+.use-motion {
+  .logo-line-before i { left: -100%; }
+  .logo-line-after i { right: -100%; }
+}
