@@ -6,16 +6,18 @@ categories:
 tags:
 ---
 
-###介绍
+# 介绍
 
 &#160;&#160;&#160;&#160;&#160;&#160;使用Python进行数据分析，数据的可视化是数据分析结果最好的展示方式，这里从[Analytic Vidhya](https://www.analyticsvidhya.com)中找到的相关数据，进行一系列图形的展示，从中得到更多的经验。
 &#160;&#160;&#160;&#160;&#160;&#160;<font color='red'>**强烈推荐：**</font>[Analytic Vidhya](https://www.analyticsvidhya.com)
 
-###Python数据可视化库
+# Python数据可视化库
+
  - Matplotlib:其能够支持所有的2D作图和部分3D作图。能通过交互环境做出印刷质量的图像。
  - Seaborn：基于Matplotlib，seaborn提供许多功能，比如：内置主题、颜色调色板、函数和提供可视化单变量、双变量、线性回归的工具。其能帮助我们构建复杂的可视化。
 
-###数据集
+# 数据集
+
 | EMPID | Gender | Age  | Sales |     BMI     | Income |
 | :---: | :----: | :--: | :---: | :---------: | :----: |
 | E001  |   M    |  34  |  123  |   Normal    |  350   |
@@ -29,7 +31,8 @@ tags:
 | E009  |   M    |  32  |  133  |   Normal    |   75   |
 | E010  |   M    |  36  |  133  | Underweight |   40   |
 
-###作图
+# 作图
+
 ```
 # -*- coding:UTF-8 -*-
 
