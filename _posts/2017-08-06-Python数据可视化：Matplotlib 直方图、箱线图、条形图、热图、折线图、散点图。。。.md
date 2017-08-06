@@ -6,6 +6,8 @@ categories:
 tags:
 ---
 
+
+
 # 介绍
 
 &#160;&#160;&#160;&#160;&#160;&#160;使用Python进行数据分析，数据的可视化是数据分析结果最好的展示方式，这里从[Analytic Vidhya](https://www.analyticsvidhya.com)中找到的相关数据，进行一系列图形的展示，从中得到更多的经验。
