@@ -1,6 +1,6 @@
 .site-meta {
   margin: 0;
-  text-align: $site-meta-text-align;
+  text-align: left;
 
   @include mobile() { text-align: center; }
 }
@@ -33,6 +33,7 @@
 
 .site-subtitle {
   margin-top: 10px;
+  margin-left: 10px;
   font-size: $subtitle-font-size;
   color: #fff;
 }
