@@ -3,7 +3,9 @@
 .menu {
   margin-top: 20px;
   padding-left: 0;
-  text-align: center;
+  text-align: right;
+  color: white;
+  background: #19fff;
 }
 
 .menu .menu-item {
@@ -11,7 +13,7 @@
   margin: 0 10px;
   list-style: none;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 76px) {
     margin-top: 10px;
   }
 
